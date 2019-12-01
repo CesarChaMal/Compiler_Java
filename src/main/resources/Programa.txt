@@ -1,0 +1,36 @@
+PROGRAMA muestra;
+
+
+Var entera xy,fg;
+Const re := 12;
+
+
+Etiq _ A25, _A275;
+Var entera: rst, mno, mpo;
+Var real: xyz;
+{
+
+   LEE ("dos valores enteros", xy,fg);
+   SI (xy * por < fg-rc)
+      Rst := xy*re/fd*por;
+   SINO
+      Mno: = fg-rc;
+   FIN_SI   
+
+ MIENTRAS xy < fg)  haz
+   Mpo:= xy * yc /por;
+   Ryz := 2.25 * mpo;
+ FINM
+ SALTA  _A25:
+
+
+REPITE
+ Mno := fg/vc
+ MIENTRAS (mno <0 AND xy > fg)
+   SI (por * cv- mno <= fg) entonces
+      Mpo := mno/vc * (fg + por /mno)
+  FINSI
+ FINM
+HASTA (fg/cv < por OR por > vc)
+IMPRIME("Resultado", xy, fg, mno,mpo, ryz)
+}

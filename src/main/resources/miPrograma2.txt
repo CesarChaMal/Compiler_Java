@@ -1,0 +1,34 @@
+PROGRAMA muestra;
+
+Etiq hey, hola;
+VAR entera y,a; VAR entera e;
+
+
+
+
+{
+   LEE (“dos valores enteros”, xy,fg);
+   SI (xy * por < fg-rc)
+      Rst := xy*re/fd*por;
+   SINO
+      Mno: = fg-rc;
+   FIN_SI   
+
+-A25
+ MIENTRAS (xy < fg)  haz
+   Mpo:= xy * yc /por;
+   Ryz := 2.25 * mpo;
+ FINM
+ SALTA  _A25:
+
+-275:
+REPITE
+ Mno := fg/vc
+ MIENTRAS (mno <0 AND xy > fg)
+   SI (por * cv- mno <= fg) entonces
+      Mpo := mno/vc * (fg + por /mno)
+  FINSI
+ FINM
+HASTA (fg/cv < por OR por > vc)
+IMPRIME(“Resultado”, xy, fg, mno,mpo, ryz)
+}
