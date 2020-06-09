@@ -7,9 +7,9 @@ public class Main {
         StringBuffer token = new StringBuffer();
 
         System.out.println("compiling");
-        String file1 = "C:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\Programa.txt";
-        String file2 = "C:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\miPrograma1.txt";
-        String file3 = "C:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\miPrograma2.txt";
+        String file1 = "E:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\Programa.txt";
+        String file2 = "E:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\miPrograma1.txt";
+        String file3 = "E:\\IdeaProjects\\Compiler_Java\\src\\main\\resources\\miPrograma2.txt";
         Compila x = new Compila(file3);
 
         System.out.println("Fin de análisis lexico.. separa los tokens y los almacena en una tabla");
